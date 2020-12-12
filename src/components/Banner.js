@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div class="hero-image">
             <div class="hero-text">
-                <h1>Quarantined Achievements</h1>
+                <h1><span class="whiteText">Quarantined</span>&nbsp;<span class="goldText">Achievements</span></h1>
             </div>
         </div>
     );

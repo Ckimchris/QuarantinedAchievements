@@ -13,7 +13,7 @@ const Navbar = ({sticky}) => {
     return (
         <nav className={sticky ? "navbar navbar-sticky" : "navbar"}>
         <div className="navbar--logo-holder">
-            <h1> Stick'Me</h1>
+            <h1><span class="whiteText">Q</span><span class="goldText">A</span></h1>
         </div>
         <ul className="navbar--link">
             <li className="navbar--link-item" onClick={() => scrollToTop()}>Top</li>

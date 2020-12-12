@@ -18,3 +18,10 @@
     font-size: large;
   }
   
+  .whiteText{
+    color: white;
+  }
+
+  .goldText{
+    color: goldenrod;
+  }

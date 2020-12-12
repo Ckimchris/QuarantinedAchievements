@@ -75,3 +75,11 @@ body {
   100% {opacity:1;}
   0% {opacity:0;}
 }
+
+.whiteText{
+  color: white;
+}
+
+.goldText{
+  color: goldenrod;
+}

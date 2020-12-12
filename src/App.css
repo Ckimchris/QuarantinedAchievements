@@ -73,7 +73,7 @@ body {
 
 .lazyload-wrapper:nth-child(odd) .timeline-item-content .date {
   right: auto;
-  left: -120px;
+  left: -150px;
 }
 .timeline-item-content {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -168,13 +168,13 @@ body {
 .timeline-item-content .date{
   position: absolute;
   top: calc(50% - 8px);
-  right: -130px;
+  right: -150px;
   height: 20px;
   z-index: 1;
 }
 .lazyload-wrapper:nth-child(odd) .timeline-item-content .date {
   right: auto;
-  left: -120px;
+  left: -150px;
 }
 .image{
   max-width:100%;
@@ -188,14 +188,17 @@ body {
   outline: none;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0 0 4px #999;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  background-color: #fff;
   border-radius: 16px;
   position: relative; 
   overflow: hidden; 
+  transition: all 0.3s ease-in-out;
 }
 .btn:hover {
-  box-shadow: 0 0 4px rgb(68, 68, 68);
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 }
+
 .input-tag {
   color: #fff;
   display: flex;

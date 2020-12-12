@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Timeline from './components/Timeline';
+import {Timeline} from "./components/image-timeline";
 import Banner from './components/Banner';
 import Blurb from './components/Blurb';
 import useSticky from './components/useSticky';
 import Navbar from './components/Navbar';
-import './App.css';
 
 function App() {
   const { isSticky, element } = useSticky()
@@ -14,7 +13,8 @@ function App() {
       <div ref={element}>
         <Banner/>
         <Blurb/>
-        <Timeline/>
+        <Timeline reverse={true}/>
+        <Blurb/>
       </div>
     </div>
   );

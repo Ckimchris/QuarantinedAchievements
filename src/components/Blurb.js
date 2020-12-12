@@ -1,7 +1,5 @@
 import React from 'react';
 import './Blurb.css';
-import logo from './pics/maxresdefault.jpg';
-
 
 const Blurb = () => {
     return (
