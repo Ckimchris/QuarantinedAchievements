@@ -1,4 +1,53 @@
 import React from 'react';
+//import './Blurb.css';
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+import hero from './image-timeline/pics/hero.png';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import Fab from '@material-ui/core/Fab';
+
+const useStyles = makeStyles((theme) => ({
+    blurbContent: {
+      backgroundColor: "#222",
+      padding: theme.spacing(5, 0, 1),
+    },
+    fab:{
+        backgroundColor: "#00BFFF",
+        justifyContent: 'center'
+    }
+  }));
+  
+const openInNewTab = (url) =>{
+    const newWindow = window.open(url, '_blank', 'noopener noreferrer')
+    if (newWindow) newWindow.opener = null
+}
+
+export default function Blurb() {
+    const classes = useStyles();
+    return (
+        <div className={classes.blurbContent}>
+        <Container maxWidth="md">
+          <Typography variant="h5" align="center" style={{ color: 'white' }} paragraph>
+            My name is CKenshin and this is Quarantined Achievements! 
+            <br/>
+            <br/>
+            It's a compilation site of every piece of media and personal achievement I've ever completed since the arrival of the Great Quarantine of Covid-19. 
+            <br/>
+            If you are interested in keeping up with me, feel free to follow my twitter below.
+            <br/>
+            <br/>
+            <Fab color={'primary'} size="medium" >
+                <TwitterIcon style={{ color: 'white' }} onClick={() => openInNewTab('https://twitter.com/Ckenshin7')}/>
+            </Fab>
+          </Typography>
+        </Container>
+      </div>
+    );
+}
+
+/*
+import React from 'react';
 import './Blurb.css';
 
 const Blurb = () => {
@@ -14,3 +63,7 @@ const Blurb = () => {
 }
 
 export default Blurb;
+
+
+
+*/

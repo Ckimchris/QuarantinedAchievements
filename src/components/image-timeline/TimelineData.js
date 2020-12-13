@@ -268,7 +268,7 @@ export default [
         image: junitaisen,
         title: 'Juni Taisen: Zodiac War',
         color: '#708090',
-        date: 'June 20',
+        date: '06/20',
         url:'https://en.wikipedia.org/wiki/Juni_Taisen:_Zodiac_War',
         tags: ['Light Novel']
     },
@@ -293,7 +293,7 @@ export default [
         image: saoa1,
         title: 'Sword Art Online Alicization',
         color: '#8B4513',
-        date: 'July 20',
+        date: '07/20',
         url:'https://en.wikipedia.org/wiki/Sword_Art_Online:_Alicization',
         text: "",
         tags: ['Anime', 'Shounen']

@@ -14,7 +14,6 @@ function App() {
         <Banner/>
         <Blurb/>
         <Timeline reverse={true}/>
-        <Blurb/>
       </div>
     </div>
   );

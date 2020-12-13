@@ -83,3 +83,7 @@ body {
 .goldText{
   color: goldenrod;
 }
+
+.MuiAppBar-colorPrimary{
+  background-color: #222;
+}
