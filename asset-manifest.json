@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.8db29a36.chunk.css",
-    "main.js": "/static/js/main.8795828d.chunk.js",
-    "main.js.map": "/static/js/main.8795828d.chunk.js.map",
+    "main.js": "/static/js/main.4fa64b90.chunk.js",
+    "main.js.map": "/static/js/main.4fa64b90.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5edbaf48.js",
     "runtime-main.js.map": "/static/js/runtime-main.5edbaf48.js.map",
-    "static/js/2.c073e00e.chunk.js": "/static/js/2.c073e00e.chunk.js",
-    "static/js/2.c073e00e.chunk.js.map": "/static/js/2.c073e00e.chunk.js.map",
+    "static/js/2.19f80fcd.chunk.js": "/static/js/2.19f80fcd.chunk.js",
+    "static/js/2.19f80fcd.chunk.js.map": "/static/js/2.19f80fcd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f5c74f4cc7cf8dc6a1dcae5caf328401.js": "/precache-manifest.f5c74f4cc7cf8dc6a1dcae5caf328401.js",
+    "precache-manifest.c4c14960aaa5fcc54188e5b85c70836e.js": "/precache-manifest.c4c14960aaa5fcc54188e5b85c70836e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8db29a36.chunk.css.map": "/static/css/main.8db29a36.chunk.css.map",
-    "static/js/2.c073e00e.chunk.js.LICENSE.txt": "/static/js/2.c073e00e.chunk.js.LICENSE.txt",
+    "static/js/2.19f80fcd.chunk.js.LICENSE.txt": "/static/js/2.19f80fcd.chunk.js.LICENSE.txt",
     "static/media/AC7.jpg": "/static/media/AC7.09ba1e98.jpg",
     "static/media/SF64.jpg": "/static/media/SF64.d288b4af.jpg",
     "static/media/SMO.jpg": "/static/media/SMO.13b732c2.jpg",
@@ -24,6 +24,7 @@
     "static/media/bunnygirl.jpg": "/static/media/bunnygirl.35214bca.jpg",
     "static/media/catreturns.jpg": "/static/media/catreturns.9712a990.jpg",
     "static/media/celeste.jpg": "/static/media/celeste.9f7c30d4.jpg",
+    "static/media/celestefarewell.png": "/static/media/celestefarewell.534c3e8a.png",
     "static/media/cs3.png": "/static/media/cs3.0163270a.png",
     "static/media/demonslayermanga.png": "/static/media/demonslayermanga.fce67017.png",
     "static/media/elaina1.jpg": "/static/media/elaina1.645ac3fb.jpg",
@@ -67,8 +68,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5edbaf48.js",
-    "static/js/2.c073e00e.chunk.js",
+    "static/js/2.19f80fcd.chunk.js",
     "static/css/main.8db29a36.chunk.css",
-    "static/js/main.8795828d.chunk.js"
+    "static/js/main.4fa64b90.chunk.js"
   ]
 }
