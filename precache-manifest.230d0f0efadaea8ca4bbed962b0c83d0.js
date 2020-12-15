@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ad1c6913c187187db315863c210e71a",
+    "revision": "5e8b5b3857cb0d4fb56b5e5cf73649d0",
     "url": "/index.html"
   },
   {
-    "revision": "c7618dafa0b818b0df36",
+    "revision": "2793e8646f5d68d1c6cf",
     "url": "/static/css/main.8db29a36.chunk.css"
   },
   {
-    "revision": "3b5a04c7b1f8183502ad",
-    "url": "/static/js/2.ca962bb3.chunk.js"
+    "revision": "8ef03af0e51ed3217c68",
+    "url": "/static/js/2.c073e00e.chunk.js"
   },
   {
     "revision": "25ee36cecf3742d8e72fa8504c054097",
-    "url": "/static/js/2.ca962bb3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c073e00e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7618dafa0b818b0df36",
-    "url": "/static/js/main.f97fd7d0.chunk.js"
+    "revision": "2793e8646f5d68d1c6cf",
+    "url": "/static/js/main.15f95d3e.chunk.js"
   },
   {
     "revision": "e0534662ec15d62d2ad5",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0163270a37adc58097dc4782366b722f",
     "url": "/static/media/cs3.0163270a.png"
+  },
+  {
+    "revision": "fce6701793adac426909758d9fd954f6",
+    "url": "/static/media/demonslayermanga.fce67017.png"
   },
   {
     "revision": "645ac3fb848dd51348a0797aeb2a2698",
